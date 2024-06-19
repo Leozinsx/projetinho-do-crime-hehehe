@@ -5,25 +5,79 @@ const caixaResultado = document.querySelector(".caixa-resultado");
 const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
-  {
+    {
+        enunciado: "Quais os métodos utilizados na sua cidade para combater o crime?",
+        alternativas: [
+            "Câmera de segurança",
+            "Sensor e de segurança"
+        ]
+    },
+    {
+        enunciado: "Quais são os fatores sociais que contribuem para o ocorrência de crimes, como roubo, violência e corrupção?  ",
+        alternativas: [
+            "Fome",
+            "Desemprego"const caixaPrincipal = document.querySelector("const caixaPrincipal = document.querySelector(".caixa-principal");
+const caixaPerguntas = document.querySelector(".caixa-perguntas");
+const caixaAlternativas = document.querySelector(".caixa-alternativas");
+const caixaResultado = document.querySelector(".caixa-resultado");
+const textoResultado = document.querySelector(".texto-resultado");
+
+const perguntas = [
+  {const caixaPrincipal = document.querySelector(".caixa-principal");
+    const caixaPerguntas = document.querySelector(".caixa-perguntas");
+    const caixaAlternativas = document.querySelector(".caixa-alternativas");
+    const caixaResultado = document.querySelector(".caixa-resultado");
+    const textoResultado = document.querySelector(".texto-resultado");
+    
+    const perguntas = [
+        {
+            enunciado: "Quais os métodos utilizados na sua cidade para combater o crime?",
+            alternativas: [
+    …mostraPergunta();
         enunciado: "Quais os metodos utilizados na sua cidade para combater o crime",
         alternativas: [
-            "Cameras de segurança,odnde foi instalada câmeras pela cidade inteira e caso precise e tudo filmado",
-            "sensor de segurança, quando alguém tenta invadir algum comercio oui algum lugar que tenha este sensor ele È disparado È direcionado o sinal para delegacia"
+…        const botaoAlternativas = document.createElement("button");
+        botaoAlternativas.textContent = alternativa;
+        caixaAlternativas.appendChild(botaoAlternativas);
+    }
+}
+
+mostraPergunta();
+.caixa-principal");
+            const caixaPerguntas = document.querySelector(".caixa-perguntas");
+            const caixaAlternativas = document.querySelector(".caixa-alternativas");
+            const caixaResultado = document.querySelector(".caixa-resultado");
+            const textoResultado = document.querySelector(".texto-resultado");
+            
+            const perguntas = [
+              {
+                    enunciado: "Quais os metodos utilizados na sua cidade para combater o crime",
+                    const caixaPrincipal = document.querySelector(".caixa-principal");
+                    const caixaPerguntas = document.querySelector(".caixa-perguntas");
+                    const caixaAlternativas = document.querySelector(".caixa-alternativas");
+                    const caixaResultado = document.querySelector(".caixa-resultado");
+                    const textoResultado = document.querySelector(".texto-resultado");
+                    
+                    const perguntas = [
+                        {
+                            enunciado: "Quais os métodos utilizados na sua cidade para combater o crime?",
+                            alternativas: [
+                    …mostraPergunta();     alternativas: [
+            …        const botaoAlternativas = document.createElement("button");
+                    botaoAlternativas.textContent = alternativa;
+                    caixaAlternativas.appendChild(botaoAlternativas);
+                }
+            }
+            
+            mostraPergunta();
+            
         ]
     },
     {
-        enunciado: "Quais são os fatores esenciais que contribuem para a oco",
+        enunciado: "Quais ão os crimes mai ocorrentes na sua cidade?",
         alternativas: [
-            "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-            "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores."
-        ]
-    },
-    {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
-        alternativas: [
-            "Criar uma imagem utilizando uma plataforma de design como o Paint.",
-            "Criar uma imagem utilizando um gerador de imagem de IA."
+            "Tráfico de drogas",
+            "Roubo"
         ]
     },
 ];
